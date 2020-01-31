@@ -27,7 +27,7 @@ This repository is used for how git commands work both locally and on cloud.
 * BitBucket
     [Click here](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
 * Udemy
-    [click here](https://www.udemy.com/courses/search/?src=ukw&q=git)
+    [Click here](https://www.udemy.com/courses/search/?src=ukw&q=git)
 
 ## Contributors:
 
