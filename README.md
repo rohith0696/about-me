@@ -10,7 +10,7 @@ This repository is used for how git commands work both locally and on cloud.
 
 * In order to get started we will have to **create** an **account** in the **github**  which will allow us to create repositories in order to save our work.
 
-* Next we have to install **git** in our local machine by using choclety, but we also need to install other tools so that we can easily work on git.
+* Next we have to install **git** in our local machine by using chocolety, but we also need to install other tools so that we can easily work on git.
 
 
 ## Required Tools:
