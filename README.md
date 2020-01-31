@@ -15,18 +15,18 @@ This repository is used for how git commands work both locally and on cloud.
 
 ## Required Tools:
 
-* Git
-* Putty
-* Visual Studio Code
-* Tortoise Git
+1. Git
+1. Putty
+1. Visual Studio Code
+1. Tortoise Git
 
 ## Resource Links:
 
-* Git
+1. Git
     [Click here](https://try.github.io/)
-* BitBucket
+1. BitBucket
     [Click here](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
-* Udemy
+1. Udemy
     [Click here](https://www.udemy.com/courses/search/?src=ukw&q=git)
 
 ## Contributors:
