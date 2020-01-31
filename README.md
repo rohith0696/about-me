@@ -36,7 +36,7 @@ This repository is used for how git commands work both locally and on cloud.
  **Program** : *Applied Computer Science*
 
 
- This is My favourite Picture.
+ *This is My favourite Picture.*
 
  ![Bike](https://i.ytimg.com/vi/YPdNd2eHgF4/maxresdefault.jpg)
 
