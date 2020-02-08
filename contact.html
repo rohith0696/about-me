@@ -6,7 +6,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Project - contact</title>
-	
+	<!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.11.0/css/mdb.min.css" rel="stylesheet">
 	<!--
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<link rel="stylesheet" type="text/css" href="css/mobile.css">
@@ -16,136 +21,71 @@
 	
 </head>
 <body>
-	
 	<div id="page">
 		<div id="header">
-			<nav>
-                <div>
-                    
-                    <ul id="navigation">
-                        <li class="selected">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li>
-                            <a href="contact.html">Contact</a>
-                        </li>
-                        <li>
-                            <a href="yourchoice.html">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-               
-		</div>
-		<div id="body">
-			<div class="header">
-				<div class="contact">
-					<h1>Contact</h1>
-					<h2>This is just a place holder.</h2>
-					<form action="index.html">
-						<input type="text" name="Name" value="Name" onblur="this.value=!this.value?'Name':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<input type="text" name="Email Address" value="Email Address" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<input type="text" name="Subject" value="Subject" onblur="this.value=!this.value?'Subject':this.value;" onfocus="this.select()" onclick="this.value='';">
-						<textarea name="message" cols="50" rows="7">Message</textarea>
-						<input type="submit" value="Send" id="submit">
-					</form>
-				</div>
-			</div>
-		</div>
-		<div id="footer">
-			<div class="connect">
-				<div>
-					<h1>FOLLOW OUR  MISSIONS ON</h1>
-					<div>
-						<a href="http://freewebsitetemplates.com/go/facebook/" class="facebook">facebook</a>
-						<a href="http://freewebsitetemplates.com/go/twitter/" class="twitter">twitter</a>
-						<a href="http://freewebsitetemplates.com/go/googleplus/" class="googleplus">googleplus</a>
-						<a href="http://pinterest.com/fwtemplates/" class="pinterest">pinterest</a>
-					</div>
-				</div>
-			</div>
-			<div class="footnote">
-				<div>
-					<p>&copy; 2020 BY ROHITH CHITTIMALLA | ALL RIGHTS RESERVED</p>
-				</div>
-				<div style="text-align: center;">
-				<br>
+		<nav>
+			<div>
 				
-				</div>
-				</div><!-- end of templatePreview--><script>
-
-
-jQuery.extend(true, XenForo,
-{
-	visitor: { user_id: 0 },
-	serverTimeInfo:
-	{
-		now: 1581106368,
-		today: 1581055200,
-		todayDow: 5
-	},
-	_lightBoxUniversal: "0",
-	_enableOverlays: "1",
-	_animationSpeedMultiplier: "1",
-	_overlayConfig:
-	{
-		top: "10%",
-		speed: 200,
-		closeSpeed: 100,
-		mask:
-		{
-			color: "rgb(255, 255, 255)",
-			opacity: "0.6",
-			loadSpeed: 200,
-			closeSpeed: 100
-		}
-	},
-	_ignoredUsers: [],
-	_loadedScripts: [],
-	_cookieConfig: { path: "/", domain: "", prefix: "xf_"},
-	_csrfToken: "",
-	_csrfRefreshUrl: "login/csrf-token-refresh",
-	_jsVersion: "77c96446",
-	_noRtnProtect: false,
-	_noSocialLogin: false
-});
-jQuery.extend(XenForo.phrases,
-{
-	cancel: "Cancel",
-
-	a_moment_ago:    "A moment ago",
-	one_minute_ago:  "1 minute ago",
-	x_minutes_ago:   "%minutes% minutes ago",
-	today_at_x:      "Today at %time%",
-	yesterday_at_x:  "Yesterday at %time%",
-	day_x_at_time_y: "%day% at %time%",
-
-	day0: "Sunday",
-	day1: "Monday",
-	day2: "Tuesday",
-	day3: "Wednesday",
-	day4: "Thursday",
-	day5: "Friday",
-	day6: "Saturday",
-
-	_months: "January,February,March,April,May,June,July,August,September,October,November,December",
-	_daysShort: "Sun,Mon,Tue,Wed,Thu,Fri,Sat",
-
-	following_error_occurred: "The following error occurred",
-	server_did_not_respond_in_time_try_again: "The server did not respond in time. Please try again.",
-	logging_in: "Logging in",
-	click_image_show_full_size_version: "Click this image to show the full-size version.",
-	show_hidden_content_by_x: "Show hidden content by {names}"
-});
-
-// Facebook Javascript SDK
-XenForo.Facebook.appId = "";
-XenForo.Facebook.forceInit = false;
-
-
-</script>
+				<ul id="navigation">
+					<li class="selected">
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="contact.html">Contact</a>
+					</li>
+					<li>
+						<a href="yourchoice.html">About</a>
+					</li>
+				</ul>
 			</div>
+		</nav>
+		   
 		</div>
+<!-- Material form login -->
+<div class="card">
+	<div>
+		<h1 class="ca text-center"  >
+		<b>	CONTACT ME </b>
+		</h1>
 	</div>
+	 
+	<!--Card content-->
+	<div class="card-body px-lg-5 pt-0">
+  
+	  <!-- Form -->
+	  <form class="text-center" style="color: #757575;" action="#!">
+		
+		<div class="md-form">
+			<input type="text" id="materialLoginFormName" class="form-control">
+			<label for="materialLoginFormEmail">Name</label>
+		  </div>
+
+		<!-- Email -->
+		<div class="md-form">
+		  <input type="email" id="materialLoginFormEmail" class="form-control">
+		  <label for="materialLoginFormEmail">E-mail</label>
+		</div>
+  
+		<!-- Password -->
+		<div class="md-form">
+		  <input type="password" id="materialLoginFormPassword" class="form-control">
+		  <label for="materialLoginFormPassword">Password</label>
+		</div>
+		
+		<!-- Default textarea message -->
+        <label for="defaultFormMessageModalEx">Your message</label>
+		<textarea type="text" id="defaultFormMessageModalEx" class="md-textarea form-control"></textarea>
+		
+		<!-- Sign in button -->
+		<button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Submit</button>
+  
+		  
+	  </form>
+	  <!-- Form -->
+  
+	</div>
+  
+  </div>
+  <!-- Material form login -->
 </body>
 </html>
