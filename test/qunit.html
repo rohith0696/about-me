@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>QUnit JS-GUI-WITH-TESTS</title>
+
+  <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.9.2.css">
+
+</head>
+
+<body>
+
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark orange lighten-1">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+        aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="../../index.html">About-Me
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home
+                    <span class="sr-only">(current)</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../../yourchoice.html">Calculation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../test/qunit.html">QUnit</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item avatar">
+                <a class="nav-link p-0">
+                    <img src="../images/logo-min.jpg" class="rounded-circle z-depth-0" alt="avatar image" height="35">
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav> 
+
+<!--Navbar-->
+
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+
+  <footer>&#9889; Important - the app should be hosted to test.
+    Running locally, try the <a
+      href="https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb?hl=en">Web
+      Server for Chrome extension</a>.
+  </footer>
+
+  <!-- qunit code -->
+  <script defer src="https://code.jquery.com/qunit/qunit-2.9.2.js"></script>
+
+  <!-- include source code to be tested -->
+  <script defer src="../src/main.js"></script>
+
+  <!-- include test code -->
+  <script defer src="main.test.js"></script>
+
+</body>
+
+</html>

@@ -23,6 +23,11 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About-Me
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link" href="index.html">Home
                         <span class="sr-only">(current)</span>
                     </a>
@@ -32,6 +37,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="yourchoice.html">Calculation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="test/qunit.html">QUnit</a>
                 </li>
             </ul>
             <ul class="navbar-nav ml-auto nav-flex-icons">
@@ -53,20 +61,31 @@
                 <p>It calculates the volume of a rectangular prism.</p>
 
                 <!-- Length -->
-                <input type="text" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Length">
+                <input type="text" id="length" class="form-control mb-4" placeholder="Length">
 
                 <!-- Width -->
-                <input type="text" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Width">
+                <input type="text" id="width" class="form-control mb-4" placeholder="Width">
 
                 <!-- Height -->
-                <input type="text" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Height">
+                <input type="text" id="height" class="form-control mb-4" placeholder="Height">
 
                 <!-- Calculate -->
-                <button class="btn btn-info btn-block" type="submit">Calculate</button>
-
-
+                <button class="btn btn-info " id="btn" type="submit">Calculate</button>
+                <br><br>
+                <!-- Result -->
+                <label id="result">
+                    <p>Result is </p>
+                </label>
+                <br>
+                <p class="h4 mb-4">RANDOM IMAGE</p>
+                
+                <button class="btn btn-info" id="ajbtn" type="submit">submit</button>
+                <br>
+                <img type="text" id="imgarea" style="height: 350px;width: 50%;">
+               
             </form>
             <!-- Default form subscription -->
+            
             
   	<footer>
 		<div class="footnote">
@@ -75,7 +94,9 @@
 			</div>
 			
 		</div>
-	</footer>
+    </footer>
+    
+    <script src="src/main.js"></script>
             </body>
 
 </html>
