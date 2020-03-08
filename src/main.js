@@ -19,7 +19,7 @@ document.addEventListener('click', event => {
 });
 
 
-const jokeURI = 'http://www.splashbase.co/api/v1/images/random';
+const jokeURI = 'https://www.splashbase.co/api/v1/images/random';
 
 // fetch information
 const getJoke = async () => {
